@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puños Elementales</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+            .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+        body {
+            background-color: #121212; /* Fondo oscuro */
+            color: #ffffff; /* Texto blanco */
+        }
+        .search-box {
+            margin-bottom: 20px;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .content .text {
+            flex: 1;
+            text-align: left;
+        }
+        .content .image {
+            flex-shrink: 0;
+            margin-left: 20px;
+        }
+        .content .image img {
+            max-width: 300px;
+            height: auto;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        a {
+            color: #FFA500; /* Enlaces en naranja */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4 blog-post">
+        <header class="mb-4">
+            <h1 class="text-center">Puños Elementales</h1>
+        </header>
+
+        <!-- Barra de búsqueda -->
+        <div class="search-box">
+            <input type="text" id="searchInput" class="form-control" placeholder="Busca algo..." onkeyup="searchContent()">
+        </div>
+
+        <!-- Aquí se mostrarán los resultados de búsqueda -->
+        <main>
+            <!-- Mostramos los resultados de búsqueda -->
+            <div id="searchResults"></div>
+
+            <h3>Blogs:</h3>
+            <div id="blogsList">
+                
+            </div>
+
+            <!-- Contenido de la página de inicio -->
+            <div class="blog-post">
+                <div class="content">
+                    <div class="text">
+                        <p>Puños Elementales
+Aquí te enseñaré a crear los puños elementales o puños de kung fu, que esta es una de las herramientas o armas más poderosas del mapa de Origins. Son ideales para poder eliminar a los enemigos con un solo golpe hasta llegada la ronda 17, que a partir de esta necesitarán 2 golpes. Cada 3 rondas pasará a ser un golpe más aumentado. Esto te puede ayudar a marcar una gran diferencia cuando te enfrentas a los zombies o a grandes cantidades de hordas de zombies. Para poder crear estos puños, necesitarás de 2 elementos clave: la piedra de los puños y los cuatro cofres llenos de almas. Aquí te explicaré paso a paso cómo conseguirlos y cómo maximizar su efectividad a la hora de usarlos y crearlos.
+Paso 1: Conseguir la piedra de los puños
+La piedra de los puños es el primer paso más importante para conseguir dicha arma y la creación de los puños elementales. Para poder obtenerla, tendrás que dirigirte al generador 2. Una vez ahí, entrarás al búnker que está justo enfrente del generador 2. Ya adentro, hasta el fondo, podrás encontrar una mesa de madera o un cofre. En ese lugar encontrarás 4 piedras; solo y únicamente agarrarás una de ellas para continuar. Acuérdate que sin esta piedra no podrás conseguirlo y no podrás avanzar en la creación de estos.
+Paso 2: Llenar los cuatro cofres de almas
+Una vez que ya hayas conseguido la piedra de los puños, el otro paso es llenar los cuatro cofres de almas con las almas de los zombies que vayas matando alrededor de este. Los zombies soltarán un alma amarilla y esto te indicará que se está llenando. Estos cofres están repartidos por todo el mapa, y cada uno se debe llenar con las almas de los zombies que vayas matando, alrededor de unos 20 a 30 zombies por cofre. A continuación, te dejaré dónde están ubicados los cofres y, una vez llenados estos cofres, desaparecerán.
+Primer cofre de almas
+Este primer cofre está ubicado saliendo de la Workshop, justo cuando te estás dirigiendo al Generador 4. Aquí podrás encontrar el cofre, en donde pisa el gigante, en medio de la pata izquierda. Estos cofres tienen un límite de zona para recoger las almas de los zombies. Tienes que mantenerte lo más cerca posible para que no se te pierda ningún alma y no pierdas más tiempo o más rondas de las necesarias. Si de casualidad el gigante pisa este cofre, el cofre reseteará las almas y tendrás que llenarlo de nuevo hasta que termines. Ten cuidado con esto, que puede resultar hasta frustrante.
+Segundo cofre de almas
+El segundo cofre lo encontrarás en el Generador 4, en la ubicación atrás de esto, justo detrás de Juggernog. Aquí podrás encontrar el cofre, en donde pisa el gigante, en medio de la pata derecha. Estos cofres tienen un límite de zona para recoger las almas de los zombies. Tienes que mantenerte lo más cerca posible para que no se te pierda ninguna alma y no pierdas más tiempo o más rondas de las necesarias. Si de casualidad el gigante pisa este cofre, el cofre reseteará las almas y tendrás que llenarlo de nuevo hasta que termines. Ten cuidado con esto, que puede resultar hasta frustrante.
+Tercer cofre de almas
+El tercer cofre lo encontrarás en el Generador 5, en la ubicación a la izquierda del generador 5. Aquí podrás encontrar el cofre, en donde pisa el gigante, en medio de la pata izquierda. Estos cofres tienen un límite de zona para recoger las almas de los zombies. Tienes que mantenerte lo más cerca posible para que no se te pierda ninguna alma y no pierdas más tiempo o más rondas de las necesarias. Si de casualidad el gigante pisa este cofre, el cofre reseteará las almas y tendrás que llenarlo de nuevo hasta que termines. Ten cuidado con esto, que puede resultar hasta frustrante.
+Cuarto cofre de almas
+El cuarto cofre lo encontrarás atrás de la construcción que está en medio del mapa, llegando a la iglesia. Podrás encontrar el cofre a la izquierda. Aquí podrás encontrar el cofre, en donde pisa el gigante del Generador 6, de la pata izquierda. Estos cofres tienen un límite de zona para recoger las almas de los zombies. Tienes que mantenerte lo más cerca posible para que no se te pierda ninguna alma y no pierdas más tiempo o más rondas de las necesarias. Si de casualidad el gigante pisa este cofre, el cofre reseteará las almas y tendrás que llenarlo de nuevo hasta que termines. Ten cuidado con esto, que puede resultar hasta frustrante.
+Paso 3: Reclamar los puños elementales
+Una vez que hayas llenado los cuatro cofres de almas, verás que en la parte izquierda de tu HUD aparecerá una piedra con una especie de burbujas iluminadas. Esto te indicará que ya has completado los cuatro cofres y podrás ir a reclamar esta arma. Para poder reclamarla, tendrás que ir al Generador 6, en el mismo lugar donde agarraste la tercera pieza del Bastón de Fuego. Ahí solo tendrás que apuntar a la pieza y usar el botón de interacción. Este cofre se abrirá con unas partículas amarillas que te dejarán interactuar con estas. Con esto, tendrás ya los puños elementales para poder usarlos. Se usan con el mismo botón con el que acuchillas; esto reemplazará tu cuchillo o tu cuchillo del bastón.</p>
+<p>Cómo utilizarlos
+Para poder utilizarlos correctamente es necesario tener un buen concepto del rango que tienen estos. Aunque muchos piensen que es como un cuchillo con el mismo alcance, no es cierto, estos tienen un poco más de alcance. Úsalos más que nada para poder maximizar puntos o, ya sea, para poder escapar de alguna que otra situación en la que puedes quedar encerrado por los zombies.</p>
+ <!-- Esto mantiene tu texto original -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aquí también puedes incluir una sección para mostrar resultados específicos si lo deseas -->
+            <div id="searchResultsContainer"></div>
+            </main>
+
+
+        <footer class="mt-4">
+            <p>© 2024 - Creado con Eleventy y Bootstrap</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script para la búsqueda -->
+<script>
+    function searchContent() {
+        const query = document.getElementById('searchInput').value.toLowerCase();
+        const results = document.querySelectorAll('.search-result');
+        const searchResults = document.getElementById('searchResults');
+        searchResults.innerHTML = '';
+
+        let resultsFound = false;
+
+        results.forEach(result => {
+            const title = result.getAttribute('data-title').toLowerCase();
+            const content = result.getAttribute('data-content').toLowerCase();
+
+            // Si el título o el contenido incluyen la búsqueda, mostrar el resultado
+            if (title.includes(query) || content.includes(query)) {
+                resultsFound = true;
+                const resultElement = document.createElement('div');
+                resultElement.classList.add('search-result');
+                resultElement.innerHTML = `
+                    <h3><a href="${result.querySelector('a').getAttribute('href')}">${result.querySelector('a').textContent}</a></h3>
+                    <p>${highlightText(result.querySelector('p').textContent, query)}</p>
+                `;
+                searchResults.appendChild(resultElement);
+            }
+        });
+
+        // Si no se encontraron resultados, mostrar un mensaje
+        if (!resultsFound) {
+            searchResults.innerHTML = '<p>No se encontraron resultados.</p>';
+        }
+    }
+
+    // Función para resaltar el texto buscado
+    function highlightText(text, query) {
+        const regex = new RegExp(`(${query})`, 'gi');
+        return text.replace(regex, '<span class="highlight">$1</span>');
+    }
+</script>
+</body>
+</html>

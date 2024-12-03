@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pack a punch</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+            .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+        body {
+            background-color: #121212; /* Fondo oscuro */
+            color: #ffffff; /* Texto blanco */
+        }
+        .search-box {
+            margin-bottom: 20px;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .content .text {
+            flex: 1;
+            text-align: left;
+        }
+        .content .image {
+            flex-shrink: 0;
+            margin-left: 20px;
+        }
+        .content .image img {
+            max-width: 300px;
+            height: auto;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        a {
+            color: #FFA500; /* Enlaces en naranja */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4 blog-post">
+        <header class="mb-4">
+            <h1 class="text-center">Pack a punch</h1>
+        </header>
+
+        <!-- Barra de búsqueda -->
+        <div class="search-box">
+            <input type="text" id="searchInput" class="form-control" placeholder="Busca algo..." onkeyup="searchContent()">
+        </div>
+
+        <!-- Aquí se mostrarán los resultados de búsqueda -->
+        <main>
+            <!-- Mostramos los resultados de búsqueda -->
+            <div id="searchResults"></div>
+
+            <h3>Blogs:</h3>
+            <div id="blogsList">
+                
+            </div>
+
+            <!-- Contenido de la página de inicio -->
+            <div class="blog-post">
+                <div class="content">
+                    <div class="text">
+                        <h1><strong>Pack-a-Punch</strong>: La Máquina de Mejora de Armas en <em>Call of Duty: Zombies</em></h1>
+<h2><strong>Introducción</strong></h2>
+<p>El <strong>Pack-a-Punch</strong> es una de las características más icónicas y esenciales del modo <em>Zombies</em> en <em>Call of Duty</em>. Introducido en <em>Call of Duty: World at War</em> y perfeccionado a lo largo de las entregas de la franquicia, el Pack-a-Punch ha sido una herramienta crucial para los jugadores que buscan mejorar sus armas y aumentar sus posibilidades de supervivencia frente a las hordas de zombis. Este sistema de mejora de armas se ha convertido en un elemento fundamental en cada mapa de <em>Zombies</em>, ofreciendo tanto a novatos como a veteranos la oportunidad de reforzar su arsenal y enfrentar desafíos más difíciles a medida que avanzan en las rondas.</p>
+<h2><strong>¿Qué es el Pack-a-Punch?</strong></h2>
+<p>El <strong>Pack-a-Punch</strong> es una máquina especial que permite a los jugadores mejorar sus armas a través de un proceso que aumenta el daño, la capacidad de munición y, a veces, incluso otorga nuevos efectos especiales a las armas. Fue introducido en <em>World at War</em>, y desde entonces ha sido parte esencial de casi todos los mapas de <em>Zombies</em> en entregas posteriores.</p>
+<h3><strong>Funcionamiento Básico</strong></h3>
+<p>Para usar el Pack-a-Punch, los jugadores deben primero encontrar la máquina, que generalmente está oculta en una ubicación específica del mapa y a menudo requiere completar una serie de desafíos o pasos para desbloquearla. Una vez que el Pack-a-Punch está accesible, los jugadores pueden depositar un arma en la máquina para que esta la mejore, obteniendo una versión más poderosa.</p>
+<p>El proceso de mejora tiene un costo en puntos, que los jugadores deben haber acumulado al eliminar zombis o completar objetivos dentro del mapa. Una vez que se ha pagado el costo, el jugador recibe su arma mejorada con características mejoradas, como más daño por disparo, mayor capacidad de munición, o en algunos casos, efectos especiales como fuego o rayos.</p>
+<h2><strong>Historia y Evolución del Pack-a-Punch</strong></h2>
+<p>El concepto del Pack-a-Punch fue introducido por primera vez en <em>World at War</em>, donde los jugadores podían mejorar sus armas en el mapa &quot;Nacht der Untoten&quot;. Sin embargo, la mecánica era rudimentaria, y solo algunas armas podían ser mejoradas. En entregas posteriores, como <em>Black Ops</em> y <em>Black Ops 2</em>, el Pack-a-Punch se expandió y se diversificó.</p>
+<p>A lo largo de los años, el Pack-a-Punch ha evolucionado de una simple máquina de mejora a un sistema más complejo y estratégico que requiere que los jugadores interactúen con otros elementos del mapa, como el &quot;Poder&quot;, o completen pasos específicos para activar la máquina. En <em>Black Ops 3</em>, por ejemplo, el Pack-a-Punch se implementó en mapas como &quot;Der Eisendrache&quot; y &quot;Shadows of Evil&quot;, donde se agregaron más mecánicas y pasos complejos para acceder a él.</p>
+<h2><strong>Características del Pack-a-Punch en Diferentes Juegos</strong></h2>
+<h3><strong>World at War</strong></h3>
+<p>En <em>World at War</em>, el Pack-a-Punch fue introducido en el mapa &quot;Nacht der Untoten&quot;, el primer mapa de <em>Zombies</em>. La máquina era una granja sencilla en la que los jugadores depositaban sus armas para mejorarlas, y el coste era de 5000 puntos. La mejora de armas en este juego era más limitada en comparación con entregas posteriores, pero sentó las bases para lo que vendría después.</p>
+<h3><strong>Black Ops</strong></h3>
+<p>Con la llegada de <em>Black Ops</em>, el Pack-a-Punch se expandió. En el mapa &quot;Kino der Toten&quot;, por ejemplo, el Pack-a-Punch se encontraba detrás de una puerta cerrada que requería que los jugadores interactuaran con los generadores de energía para desbloquear el acceso. El coste de mejorar las armas también subió a 5000 puntos, lo que lo convirtió en un desafío para los jugadores que querían mejorar su arsenal.</p>
+<h3><strong>Black Ops 2</strong></h3>
+<p><em>Black Ops 2</em> llevó el concepto del Pack-a-Punch aún más lejos, incorporando nuevos mapas con mecánicas adicionales. En <em>Origins</em>, por ejemplo, el Pack-a-Punch no solo requería la acumulación de puntos, sino también que los jugadores activaran una serie de mecanismos en todo el mapa. Además, se introdujo la posibilidad de mejorar armas más de una vez, permitiendo a los jugadores alcanzar un nivel aún mayor de poder con sus armas.</p>
+<p>La opción de Pack-a-Punch también estuvo disponible en <em>TranZit</em>, donde los jugadores debían usar el autobús para llegar a la ubicación de la máquina. Esta variabilidad en la forma de acceder al Pack-a-Punch ayudó a agregar complejidad a los mapas de <em>Zombies</em>.</p>
+<h3><strong>Black Ops 3</strong></h3>
+<p>En <em>Black Ops 3</em>, el Pack-a-Punch continuó siendo una parte central de la experiencia <em>Zombies</em>. Sin embargo, se añadió una nueva mecánica: la habilidad de mejorar las armas más de una vez. Esto no solo aumentaba su poder de forma más significativa, sino que también introducía la posibilidad de obtener armas con efectos especiales, como el fuego o las armas eléctricas. En mapas como &quot;Shadows of Evil&quot;, los jugadores tenían que completar varios pasos para desbloquear la máquina de mejora, lo que aportaba una capa adicional de estrategia.</p>
+<h3><strong>Black Ops 4 y Más Allá</strong></h3>
+<p>En <em>Black Ops 4</em>, la mecánica del Pack-a-Punch se volvió aún más dinámica, con la posibilidad de mejorar las armas más de una vez y nuevas mecánicas para adaptarse a las características del modo <em>Zombies</em>. En los mapas más recientes, como &quot;IX&quot; y &quot;Ancient Evil&quot;, el Pack-a-Punch se integra en la narrativa y en los desafíos del mapa, siendo más accesible pero también requiriendo que los jugadores completen pasos específicos, como obtener piezas o activar mecanismos.</p>
+<h2><strong>El Pack-a-Punch en los Mapas</strong></h2>
+<p>El Pack-a-Punch ha sido un elemento constante a lo largo de los mapas de <em>Zombies</em>, pero su ubicación y accesibilidad varían según el mapa. En algunos mapas, como &quot;Kino der Toten&quot; o &quot;Nacht der Untoten&quot;, los jugadores deben abrir puertas o activar generadores para acceder a la máquina, mientras que en otros, como &quot;Origins&quot;, la máquina de mejora solo se desbloquea después de completar ciertos pasos complejos que requieren colaboración entre los jugadores.</p>
+<p>Algunos mapas han integrado el Pack-a-Punch en entornos más interactivos, como el uso de trenes o vehículos, lo que obliga a los jugadores a gestionar mejor sus recursos y el tiempo para conseguir armas mejoradas.</p>
+<h2><strong>Estrategias para Usar el Pack-a-Punch</strong></h2>
+<p>El uso adecuado del Pack-a-Punch es clave para sobrevivir a las rondas más altas de <em>Zombies</em>. Aquí hay algunas estrategias:</p>
+<h3><strong>Prioriza las Armas que más Usas</strong></h3>
+<p>Asegúrate de mejorar las armas que más usas. Las armas como la <strong>Raygun</strong>, <strong>Wunderwaffe DG-2</strong>, o <strong>Thunder Gun</strong> son ideales para mejorar con el Pack-a-Punch debido a su poder y eficacia a largo plazo. A medida que avanzas en las rondas, necesitas armas capaces de destruir rápidamente las hordas de zombis, y el Pack-a-Punch te da justo eso.</p>
+<h3><strong>Completa los Pasos para Desbloquear el Pack-a-Punch</strong></h3>
+<p>En mapas como <em>Origins</em> o <em>Shadows of Evil</em>, el Pack-a-Punch no está simplemente disponible desde el principio. Tienes que completar ciertas tareas, como activar mecanismos o buscar piezas. Prioriza completar estos pasos de manera eficiente para acceder lo antes posible a la mejora de tus armas.</p>
+<h3><strong>Gestiona los Puntos Inteligentemente</strong></h3>
+<p>El coste de usar el Pack-a-Punch puede ser significativo, así que asegúrate de tener una estrategia para ganar puntos rápidamente, ya sea matando zombis o completando objetivos del mapa.</p>
+<h2><strong>Conclusión</strong></h2>
+<p>El <strong>Pack-a-Punch</strong> es una parte esencial de la experiencia <em>Zombies</em> en <em>Call of Duty</em>, ofreciendo a los jugadores una forma crucial de mejorar sus armas y enfrentarse a las hordas de zombis en rondas más altas. A lo largo de los años, el Pack-a-Punch ha evolucionado, añadiendo nuevas mecánicas y desafiando a los jugadores a adaptarse a sus mapas y características únicas. Ya sea que se trate de un simple proceso de mejora o de un reto complejo que requiere completar pasos, el Pack-a-Punch siempre ha sido un pilar central en el modo <em>Zombies</em>, brindando poder y estrategia a los jugadores en su lucha por sobrevivir.</p>
+ <!-- Esto mantiene tu texto original -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aquí también puedes incluir una sección para mostrar resultados específicos si lo deseas -->
+            <div id="searchResultsContainer"></div>
+            </main>
+
+
+        <footer class="mt-4">
+            <p>© 2024 - Creado con Eleventy y Bootstrap</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script para la búsqueda -->
+<script>
+    function searchContent() {
+        const query = document.getElementById('searchInput').value.toLowerCase();
+        const results = document.querySelectorAll('.search-result');
+        const searchResults = document.getElementById('searchResults');
+        searchResults.innerHTML = '';
+
+        let resultsFound = false;
+
+        results.forEach(result => {
+            const title = result.getAttribute('data-title').toLowerCase();
+            const content = result.getAttribute('data-content').toLowerCase();
+
+            // Si el título o el contenido incluyen la búsqueda, mostrar el resultado
+            if (title.includes(query) || content.includes(query)) {
+                resultsFound = true;
+                const resultElement = document.createElement('div');
+                resultElement.classList.add('search-result');
+                resultElement.innerHTML = `
+                    <h3><a href="${result.querySelector('a').getAttribute('href')}">${result.querySelector('a').textContent}</a></h3>
+                    <p>${highlightText(result.querySelector('p').textContent, query)}</p>
+                `;
+                searchResults.appendChild(resultElement);
+            }
+        });
+
+        // Si no se encontraron resultados, mostrar un mensaje
+        if (!resultsFound) {
+            searchResults.innerHTML = '<p>No se encontraron resultados.</p>';
+        }
+    }
+
+    // Función para resaltar el texto buscado
+    function highlightText(text, query) {
+        const regex = new RegExp(`(${query})`, 'gi');
+        return text.replace(regex, '<span class="highlight">$1</span>');
+    }
+</script>
+</body>
+</html>
