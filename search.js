@@ -1,18 +1,18 @@
-// Función para buscar dentro del contenido
-function searchContent() {
-    const query = document.getElementById('searchInput').value.toLowerCase(); // Obtener lo que el usuario escribe
-    const searchResults = document.getElementById('searchResults'); // Donde mostrar los resultados
-    searchResults.innerHTML = ''; // Limpiar resultados anteriores
-    let resultsFound = false; // Variable para verificar si hay resultados
 
-    // Buscar en todos los blogs (suponiendo que cada blog está dentro de un contenedor con la clase "blog-post")
+function searchContent() {
+    const query = document.getElementById('searchInput').value.toLowerCase(); 
+    const searchResults = document.getElementById('searchResults'); 
+    searchResults.innerHTML = ''; 
+    let resultsFound = false; 
+
+  
     const blogPosts = document.querySelectorAll('.blog-post'); 
 
     blogPosts.forEach(post => {
-        const title = post.querySelector('h2').textContent.toLowerCase(); // Título del blog
-        const content = post.querySelector('p').textContent.toLowerCase(); // Contenido del blog
+        const title = post.querySelector('h2').textContent.toLowerCase();
+        const content = post.querySelector('p').textContent.toLowerCase(); 
 
-        // Si el título o el contenido incluyen la búsqueda, mostrar el resultado
+
         if (title.includes(query) || content.includes(query)) {
             resultsFound = true;
             const resultElement = document.createElement('div');
@@ -22,7 +22,6 @@ function searchContent() {
         }
     });
 
-    // Si no se encontraron resultados, mostrar un mensaje
     if (!resultsFound) {
         searchResults.innerHTML = '<p>No se encontraron resultados.</p>';
     }
